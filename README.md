@@ -9,14 +9,16 @@ Except for preferring Gulp, it's not opinionated. It won't force you into SASS, 
 
 Finally, it uses the excellent [gulp-help](https://github.com/chmontgomery/gulp-help) plugin, so that you can easily get started with the tasks without having to look at the actual gulp files. Simply run `gulp` in your command line after pulling the project, and you'll know what you can do without having to consult a README or dig through task runner code.
 
-That's about it. To get this working, git clone this repository, then run the following:
+That's about it. To get this working, clone this repository, then run the following:
 
 ```shell
 npm install -g jspm
+```
 
 Then, install your dependencies....
 
 ```shell
 npm install && jspm install
+```
 
 After that, you're ready to go.
